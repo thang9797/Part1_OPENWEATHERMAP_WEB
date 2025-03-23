@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="OpenWeatherMap">
+
+	<listeners>
+		<listener class-name="reportConfig.AllureTestListener" />
+	</listeners>
+
+	<test name="RUN ON CHROME">
+			<parameter name="url" value="https://openweathermap.org/" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class
+				name="web.OpenWeatherMapTest" />
+		</classes>
+		<packages>
+			<package name="com.test" />
+		</packages>
+	</test>
+</suite>

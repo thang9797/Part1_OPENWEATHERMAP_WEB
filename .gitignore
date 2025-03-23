@@ -1,0 +1,14 @@
+/target/
+/allure-json/
+.classpath
+.project
+.idea/.gitignore
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
+.settings/org.eclipse.core.resources.prefs
+.settings/org.eclipse.jdt.apt.core.prefs
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.m2e.core.prefs
+/test-output/
